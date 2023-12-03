@@ -14,7 +14,7 @@ export default function Home() {
         <AnimatePresence>{menuOpen && <NavMenu />}</AnimatePresence>
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <motion.div
-          className="text-white uppercase tracking-wider px-8 flex-1 flex flex-col text-5xl leading-snug sm:text-6xl sm:leading-snug md:text-7xl md:leading-tight lg:text-[6.2rem] xl:text-[8rem]"
+          className="text-white uppercase tracking-wider px-8 mx-auto flex-1 flex flex-col text-5xl leading-snug sm:text-6xl sm:leading-snug md:text-7xl md:leading-tight lg:text-[6.2rem] xl:text-[8rem]"
           initial="initial"
           animate="animate"
         >
